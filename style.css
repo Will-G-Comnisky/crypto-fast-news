@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Righteous', cursive, sans-serif;
+    color: #fff;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header,
+footer {
+    background: linear-gradient(to right, #525154, #01100f);
+    padding-top: 2px;
+    color: #fff;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+header>.container,
+footer>.container {
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 16px;
+}
+
+.carousel {
+    margin-bottom: 30px;
+}
+
+.carousel img {
+    max-height: 300px;
+}
+
+body {
+    background-image: url("./Assets/crypto-img4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h2 {
+    background-color: rgb(62, 82, 123);
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+
+.container-flex {
+    display: flex;
+}
+
+.form-group textarea {
+    resize: none;
+    height: 150px;
+}
+
+form button {
+    margin-top: 10px;
+}
+
+footer {
+    align-items: center;
+    justify-content: center;
+}
+
+footer li {
+    list-style: none;
+    margin-left: 16px;
+}
+
+footer li img {
+    height: 32px;
+}
